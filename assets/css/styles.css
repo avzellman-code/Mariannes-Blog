@@ -5,15 +5,11 @@ html{
 	height: 100%;
 }
 
-body {
-	margin: 1rem;
-	background-color: black;
-	color: whitesmoke;
-	font-size: 5rem;
-	overflow: hidden;
-	background-image: url(../img/Marble.jpg);
-	background-repeat: no-repeat; 
-	background-position: center;
-	background-size: cover;
+body{
+  background-image: url("images/background.jpg");
+  background-size: cover;        /* fills the screen */
+  background-repeat: no-repeat;  /* prevents tiling */
+  background-position: center;   /* centers the image */
+  background-attachment: fixed;  /* optional: parallax effect */
 }
 
