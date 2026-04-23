@@ -6,7 +6,7 @@ html{
 }
 
 body{
-  background-image: url("images/background.jpg");
+  background-image: url("Marble.jpg");
   background-size: cover;        /* fills the screen */
   background-repeat: no-repeat;  /* prevents tiling */
   background-position: center;   /* centers the image */
