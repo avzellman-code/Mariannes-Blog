@@ -7,9 +7,9 @@ html{
 
 body{
   background-image: url("Marble.jpg");
-  background-size: cover;        /* fills the screen */
-  background-repeat: no-repeat;  /* prevents tiling */
-  background-position: center;   /* centers the image */
-  background-attachment: fixed;  /* optional: parallax effect */
+  background-size: cover;        
+  background-repeat: no-repeat;  
+  background-position: center;   
+  background-attachment: fixed;  
 }
 
