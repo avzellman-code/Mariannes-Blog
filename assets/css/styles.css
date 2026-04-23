@@ -4,22 +4,29 @@ html{
 	height: 100%;
 }
 
-body{
-  background-image: url("Marble.jpg");
-  background-size: cover;        
-  background-repeat: no-repeat;  
-  background-position: center;   
-  background-attachment: fixed;  
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+/* Page background */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/Marble.jpg"); /* adjust path if needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  /* fallback text styling */
+  color: black;
+  font-family: serif;
 }
 
+/* Blog Title */
 .blog-title {
   font-family: 'UnifrakturMaguntia', cursive;
   color: black;
   text-align: center;
   font-size: 3rem;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  margin: 0;
-  padding: 10px 0;
+  margin: 20px 0;
 }
