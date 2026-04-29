@@ -42,3 +42,8 @@ body {
   height: auto;
   border-radius: 10px;
 }
+
+.sidebar-hook {
+  font-style: italic;
+  margin-bottom: 15px;
+}
