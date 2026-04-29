@@ -25,3 +25,20 @@ body {
   font-size: 3rem;
   margin: 20px 0;
 }
+
+.main-content {
+  width: 70%;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
