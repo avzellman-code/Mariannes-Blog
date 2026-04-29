@@ -31,19 +31,41 @@ body {
   padding: 20px;
 }
 
+/* Sidebar container */
 .sidebar {
   width: 30%;
   padding: 20px;
   box-sizing: border-box;
+
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
 }
 
-.sidebar-img {
+.sidebar-item {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.sidebar-item img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
-.sidebar-hook {
+.hook {
   font-style: italic;
-  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.link a:hover {
+  text-decoration: underline;
 }
